@@ -14,19 +14,6 @@ Power BI	Visualization & dashboard design
 ReportLab	Final PDF report generation
 
 
-📂 Project Structure
-├── data/
-│   └── customer_shopping_behavior.csv
-├── notebook/
-│   └── Customer Shopping Behaviour Analysis.ipynb
-├── sql/
-│   └── customer_behavior.sql
-├── dashboard/
-│   └── customer_behavior_dashboard.pbix
-├── reports/
-│   └── Customer_Behavior_Analysis_Report.pdf
-└── README.md
-
 🔧 Data Processing (Python)
 
 ✔ Missing values handled using category-level median imputation
