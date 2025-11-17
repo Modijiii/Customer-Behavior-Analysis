@@ -1,95 +1,83 @@
 📊 Customer Shopping Behavior Analysis
-🔍 An End-to-End Data Analysis Project Using Python, MySQL & Power BI
-🧩 Project Overview
 
-This project presents a complete data analysis pipeline focused on understanding customer shopping behavior using Python, MySQL, and Power BI.
-It covers data cleaning, feature engineering, SQL analytics, dashboard development, and business insights generation — replicating a real-world data analyst workflow.
+End-to-End Data Analytics Project using Python, MySQL & Power BI
 
-🛠️ Tech Stack
-Tool	Purpose
-Python (Pandas, NumPy)	Data cleaning & preprocessing
-Jupyter Notebook	Exploratory analysis
-MySQL	Database + analytical SQL queries
-Power BI	Visualization & dashboard design
-ReportLab	Final PDF report generation
+📌 Project Overview
 
+This project presents a complete end-to-end data analysis pipeline for understanding customer shopping behavior in a retail setting. The workflow includes data cleaning, preprocessing, SQL analytics, and business intelligence dashboarding to extract meaningful insights that support data-driven decision-making.
 
-🔧 Data Processing (Python)
+🛠️ Tools & Technologies
 
-✔ Missing values handled using category-level median imputation
-✔ Feature engineering: Age Groups, Discount Flags, Cohort Labels
-✔ Data standardization & cleanup
-✔ Export of processed data to MySQL database
+Python (Jupyter Notebook) – Data cleaning, EDA, feature engineering
 
-🗄️ SQL Analytics (MySQL)
+MySQL – SQL analytics and data storage
 
-Key analyses performed using SQL include:
+Power BI – Interactive dashboard & visualization
 
-Revenue by gender
+Pandas, NumPy, Matplotlib – Data processing & visualization
 
-Top products by rating
+📂 Project Pipeline
 
-Discount impact on spending
+Data Preprocessing (Python)
 
-Customer segmentation (New, Returning, Loyal)
+Handling missing values (median imputation by category)
 
-Repeat buyer subscription patterns
+Age Group & Discount Flag feature engineering
 
-Revenue by age group
+Standardization and cleanup of categorical fields
 
-Top 3 products per category
+Database Layer (MySQL)
 
-A full SQL script is included in the repo.
+Upload processed data into MySQL
 
-📊 Power BI Dashboard
+Run 10+ analytical SQL queries including segmentation, revenue analysis, discount impact, and product ranking
 
-The dashboard visualizes:
+Power BI Dashboard
 
-🔹 KPIs
+KPI cards (Revenue, Avg Purchase, Avg Rating)
 
-Total Customers
+Revenue by Category & Season
 
-Average Purchase Amount
+Customer Segmentation (Age Group, Subscription Status)
 
-Average Review Rating
+Discount & Shipping Type impact analysis
 
-🔹 Insights
+🧠 Key Insights
 
-Subscription vs Non-Subscription Contribution
+Clothing is the highest-revenue category
 
-Revenue by Category
-
-Sales by Category
-
-Revenue by Age Group
-
-Sales by Age Group
-
-Slicers for Customer & Product Filters
-
-Dashboard Preview:
-
-
-(Replace the image path with your uploaded screenshot.)
-
-🧠 Key Business Insights
-
-Clothing is the top revenue-generating category
+Young Adults & Middle-aged customers generate the most revenue
 
 Subscribers spend significantly more than non-subscribers
 
-Young Adults & Middle-aged groups contribute the highest revenue
+Standard shipping is used by a majority of customers
 
-Discount usage is low, indicating good product value perception
+Average review rating is moderately high (3.7)
 
-Standard shipping is the most commonly selected option
+Discount-based purchases are fewer, suggesting strong brand value
 
-🏁 Conclusion
+📄 Project Files
 
-This project demonstrates a complete analytics workflow — from raw data to actionable insights — using industry-standard tools.
-It showcases strong technical skills in Python, SQL, and Power BI along with business-oriented thinking.
+Jupyter Notebook – Data cleaning, analysis & preprocessing
 
-🤝 Contact
+MySQL SQL Script – All analytical queries
 
-For queries or collaboration:
-Shresth Modi
+Power BI Dashboard – Visual insights & KPIs
+
+Final PDF Report – Full project documentation
+
+🚀 How to Use
+
+Clone the repository
+
+Open the notebook to explore preprocessing steps
+
+Import the .sql file into MySQL
+
+Open the Power BI .pbix file to view the dashboard
+
+Refer to the PDF report for full documentation
+
+📧 Contact
+
+Feel free to reach out for collaboration, feedback, or queries!
